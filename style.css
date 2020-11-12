@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Open Sans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: #592bbd;
+    background-size: cover;
+}
+
+.mainbox {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+
+span {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.span1 {
+    clip-path: polygon(100% 50%, 0 13%, 0 80%);
+    background-color: #ffeb3b;
+    top: 120px;
+    left: 0;
+}
+
+.span2 {
+    clip-path: polygon(100% 50%, 0 13%, 0 80%);
+    background-color: #ffeb3b;
+    top: 120px;
+    left: 0;
+}
+
+.span3 {
+    clip-path: polygon(100% 50%, 0 13%, 0 80%);
+    background-color: #ffeb3b;
+    top: 120px;
+    left: 0;
+}
+
+.span4 {
+    clip-path: polygon(100% 50%, 0 13%, 0 80%);
+    background-color: #ffeb3b;
+    top: 120px;
+    left: 0;
+}

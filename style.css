@@ -11,7 +11,7 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background: #592bbd;
+    background: #2bbdb3;
     background-size: cover;
 }
 
@@ -30,6 +30,11 @@ body {
     overflow: hidden;
 }
 
+.box2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-135deg)
+}
 span {
     width: 50%;
     height: 50%;
@@ -38,29 +43,44 @@ span {
 }
 
 .span1 {
-    clip-path: polygon(0% 75%, 100% 51%, 0 25%);
+    clip-path: polygon(0% 92%, 100% 51%, 0 8%);
     background-color: yellow;
     top: 120px;
     left: 0;
 }
 
 .span2 {
-    clip-path: polygon(100% 75%, 0% 51%, 100% 25%);
+    clip-path: polygon(100% 92%, 0% 51%, 100% 8%);
     background-color: green;
     top: 120px;
     right: 0;
 }
 
 .span3 {
-    clip-path: polygon(52% 0%, 25% 100%, 75% 100%);
+    clip-path: polygon(52% 0%, 8% 100%, 92% 100%);
     background-color: red;
     bottom: 0;
     left: 120px;
 }
 
 .span4 {
-    clip-path: polygon(52% 100%, 75% 0%, 25% 0%);
+    clip-path: polygon(52% 100%, 92% 0%, 8% 0%);
     background-color: blue;
     top: 0;
     left: 120px;
+}
+
+span b {
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    font-size: 26px;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate (-50%, -50%);
+    box-shadow: inset 0 3px 3px 0 #717171
 }
